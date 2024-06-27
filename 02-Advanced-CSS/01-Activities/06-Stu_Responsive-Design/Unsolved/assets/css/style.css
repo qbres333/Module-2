@@ -17,6 +17,7 @@ header {
 /* 
 What happens when we set the display property to flex? 
 TODO: Write your answer here 
+creates a flex container (the viewport)
 */
 nav {
   display: flex;
@@ -33,6 +34,7 @@ nav a {
 /* 
 What is the flex-wrap property? 
 TODO: Write your answer here 
+Allows items to shift to new line based on viewport size.
 */
 main {
   display: flex;
@@ -57,6 +59,7 @@ footer {
 /* 
 What does the justify-content property do? 
 TODO: Write your answer here 
+aligns the element horizontally in the viewport
 */
 .products {
   flex: 4;
@@ -69,7 +72,9 @@ TODO: Write your answer here
 
 /* 
 What is the flex property a shorthand property for?
+setting the how the flex item will grow or shrink in the flex container
 What is it doing here? 
+item won't grow or shrink, maintains its size of 400px
 TODO: Write your answer here 
 */
 .card {

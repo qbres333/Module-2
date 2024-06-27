@@ -20,6 +20,7 @@ header {
 
 nav {
   display: flex;
+  justify-content: right;
   background-color: #d8a47f;
 }
 
@@ -28,6 +29,7 @@ nav a {
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+ 
 }
 
 footer {
@@ -46,10 +48,12 @@ footer {
 
 .product button {
   font-size: 150%;
+  
 }
 
 .product-slideshow {
   display: flex;
+  align-items: center;
 }
 
 .product-image {

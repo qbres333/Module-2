@@ -85,7 +85,10 @@ button {
   cursor: pointer;
 }
 
-/* What does this CSS rule do and what does moz and webkit represent? */
+/* What does this CSS rule do and what does moz and webkit represent? 
+moz is default styling for Firefox, webkit is for Safari, Chrome, Opera, Edge
+"select" is a list*/
+
 select {
   /* -moz-appearance: none;
   -webkit-appearance: none; */
@@ -112,12 +115,14 @@ select:hover, button:hover {
   box-shadow: 0 0 5px #999;
 }
 
-/* What does this pseudo-class mean? */
+/* What does this pseudo-class mean?
+adds a 5px right icon/border next to the field when you click into the field */
 .text-input:focus {
   border-right-width: 5px;
 }
 
-/* What does this pseudo-class mean? */
+/* What does this pseudo-class mean?
+border when placeholder is shown */
 .text-input:placeholder-shown {
   border-style: dashed;
 }
@@ -136,13 +141,15 @@ select:hover, button:hover {
   margin-right: 2%;
 }
 
-/* What does this selector do? */
+/* What does this selector do? 
+when checked, the text changes color and style*/
 .checkbox:checked + label {
   color: #999999;
   font-style: italic;
 }
 
-/* What does this selector do? */
+/* What does this selector do? 
+adds a comment (psuedo element) after the box is checked*/
 .checkbox:checked + label::after {
   margin-left: 10px;
   font-size: 90%;

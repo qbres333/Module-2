@@ -95,7 +95,7 @@ article ul {
   /* Transform the text: uppercase, lowercase, capitalize */
   text-transform: none;
   /* Set text decorations on fonts: underline, overline, line-through */
-  text-decoration: none;
+  text-decoration: overline;
 }
 
 aside {

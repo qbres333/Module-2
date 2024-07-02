@@ -1,3 +1,13 @@
+:root {
+  --dark: #13293d;
+  --light: #fff;
+  --primary: #d8a47f;
+  --box-shadow: #aaaaaa;
+
+}
+/* In the root, you name the variable and set the value. 
+How you use that value is up to you. */
+
 body {
   font-size: 16px;
   display: flex;
@@ -19,8 +29,8 @@ h2 {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--dark);
+  color: var(--light);
 }
 
 nav {
@@ -29,14 +39,14 @@ nav {
 }
 
 nav a {
-  color: #13293d;
+  color: var(--dark);
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: var(--light);
 }
 
 main {
@@ -49,14 +59,14 @@ footer {
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--dark);
+  color: var(--light);
   margin-top: auto;
 }
 
 .products {
   flex: 1;
-  background-color: #fff;
+  background-color: var(--light);
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -70,24 +80,25 @@ footer {
   padding: 10px;
   flex: 0 0 300px;
   transform: rotate(8deg);
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 10px 10px 5px var(--primary);
   margin: 20px;
 }
 
-.card > header {
+.card>header {
   border-radius: 50px 50px 0px 0px;
   padding: 20px;
 }
 
-.card > p {
+.card>p {
   text-align: center;
 }
 
-.card > img {
+.card>img {
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
+
   main,
   nav {
     flex-direction: column;

@@ -23,6 +23,7 @@ body {
  
 #header p {
     margin: 0px 50px 30px 50px;
+    color: var(--white);
 }
 
 h1 {
@@ -37,19 +38,26 @@ main {
     justify-content: space-evenly;
   }
 
-h2 {
-    font-size: 30px;
-    margin: 4px;
+.snippet {
+/* font-family: 'Courier New', Courier, monospace; */
+   color: var(--pink);
+   border-style: dashed;
+   border-width: 2px;
+   border-color: var(--white);
+   padding: 15px;
+   inline-size: 350px;
+   block-size: 250px;
+   flex: 0 0 350px;
+   margin: 20px 10px 20px 10px;
 }
 
-.snippet {
-    color: var(--white);
-    font-family: 'Courier New', Courier, monospace;
-    border-style: dashed;
+.flexbox-title {
+    font-size: 30px;
+    padding: 6px;
+    border-color: var(--white);
+    border-style: solid;
     border-width: 2px;
-    padding: 10px;
-    inline-size: 400px;
-    block-size: 300px;
-    flex: 0 0 400px;
-    margin: 20px 10px 20px 10px;
+    border-radius: 8px;
+    margin-top: -40px;
+    background-color: var(--darkgrey);
 }

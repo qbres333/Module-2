@@ -35,7 +35,7 @@ header {
 
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: var(--primary);
 }
 
 nav a {
@@ -80,7 +80,7 @@ footer {
   padding: 10px;
   flex: 0 0 300px;
   transform: rotate(8deg);
-  box-shadow: 10px 10px 5px var(--primary);
+  box-shadow: 10px 10px 5px var(--box-shadow);
   margin: 20px;
 }
 

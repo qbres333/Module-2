@@ -1,18 +1,29 @@
+/* set variables for webpage */
 :root {
     --pink: fuchsia;
     --white: #ffffff;
     --darkgrey: #343c43;
 }
 
+/* set box-sizing for all elements (alt box model)*/
+html {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--darkgrey);
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     color: var(--pink);
     text-align: center;
+}
+ 
+.header p {
+    margin-bottom: 30px;
+    max-width: 50%;
 }
 
 h1 {
@@ -24,6 +35,7 @@ h1 {
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
 h2 {
@@ -34,4 +46,11 @@ h2 {
 .snippet {
     color: var(--white);
     font-family: 'Courier New', Courier, monospace;
+    border-style: dashed;
+    border-width: 2px;
+    padding: 10px;
+    inline-size: 400px;
+    block-size: 300px;
+    flex: 0 0 400px;
+    margin: 20px 10px 20px 10px;
 }

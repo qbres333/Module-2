@@ -12,7 +12,7 @@ html {
 
 body {
     background-color: var(--darkgrey);
-    margin: 20px 0px 20px 0px;
+    margin: 20px 10px 20px 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -46,9 +46,19 @@ main {
    border-color: var(--white);
    padding: 15px;
    inline-size: 350px;
-   block-size: 250px;
    flex: 0 0 350px;
    margin: 20px 10px 20px 10px;
+}
+
+#snip-1, #snip-2, #snip-3 {
+   
+    block-size: 250px;
+    
+}
+#snip-4, #snip-5, #snip-6 {
+
+    block-size: 400px;
+   
 }
 
 .flexbox-title {

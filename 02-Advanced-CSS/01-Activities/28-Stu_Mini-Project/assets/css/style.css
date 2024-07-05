@@ -66,16 +66,6 @@ main, .snippet {
 
 }
 
-#snip-1, #snip-2, #snip-3 {
-   
-    /* block-size: 250px; */
-    
-}
-#snip-4, #snip-5, #snip-6 {
-
-    /* block-size: 400px; */
-   
-}
 
 .flexbox-title {
     font-size: 30px;

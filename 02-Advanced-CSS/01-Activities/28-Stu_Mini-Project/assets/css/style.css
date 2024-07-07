@@ -1,6 +1,6 @@
 /* set variables for webpage */
 :root {
-    --pink: fuchsia;
+    --pink: #e766ec;
     --white: #ffffff;
     --darkgrey: #343c43;
 }
@@ -49,7 +49,7 @@ h1 {
 
 
 .snippet {
-/* font-family: 'Courier New', Courier, monospace; */
+
    color: var(--pink);
    border-style: dashed;
    border-width: 2px;
@@ -57,10 +57,11 @@ h1 {
    padding: 15px;
    margin: 20px 10px 20px 10px;
    flex: 0 0 400px;
+  
 }
 
 
-.flexbox-title {
+.snip-header {
     font-size: 30px;
     padding: 6px;
     position: relative;
@@ -78,12 +79,26 @@ h1 {
 }
 
 .code {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white);
+    background: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232,102, 236, 0.6) 100%);
     padding: 10px;
+    border-radius: 7px;
+   
+
 }
 
+/* indentations within the CSS code */
 .indent {
-    padding-left: 10px;
+    padding-left: 20px;
 }
+
+.dbl-indent {
+    padding-left: 40px;
+}
+
 
 /* desktop viewport */
 @media screen and (max-width: 992px) {

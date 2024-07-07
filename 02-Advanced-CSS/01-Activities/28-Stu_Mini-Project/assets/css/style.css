@@ -77,6 +77,13 @@ h1 {
     margin: 10px 0px;
 }
 
+.code {
+    padding: 10px;
+}
+
+.indent {
+    padding-left: 10px;
+}
 
 /* desktop viewport */
 @media screen and (max-width: 992px) {

@@ -24,84 +24,92 @@
         <section class="snippet" id="snip-1">
             <h2 class="snip-header">Flexbox Row</h2>
             <p class="description">Use these three properties to create a Flexbox row layout.</p>
-            <section class="code">
-                <p>.row &lcub;</p>
-                <p class="indent">display: flex;</p>
-                <p class="indent">flex-direction: row;</p>
-                <p class="indent">flex-wrap: wrap;</p>
-                <p>&rcub;</p>
-            </section>
+            <pre class="code-snip"><code class="code">
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+              </code>
+            </pre>
         </section>
 
         <section class="snippet" id="snip-2">
             <h2 class="snip-header">Flexbox Column</h2>
             <p class="description">Use this to create a Flexbox column layout.</p>
-            <section class="code">
-                <p>.column &lcub;</p>
-                <p class="indent">display: flex;</p>
-                <p class="indent">flex-direction: column;</p>
-                <p>&rcub;</p>
-            </section>
+            <pre class="code-snip"><code class="code">
+.column {
+    display: flex;
+    flex-direction: column;
+}
+              </code>
+            </pre>
         </section>
 
         <section class="snippet" id="snip-3">
             <h2 class="snip-header">CSS Grid Layout</h2>
             <p class="description">Build a 12-column layout using CSS Grid.</p>
-            <section class="code">
-                <p>.grid &lcub;</p>
-                <p class="indent">display: grid;</p>
-                <p class="indent">width: 100%;</p>
-                <p class="indent">grid-template-columns: repeat(12, 1fr);</p>
-                <p>&rcub;</p>
-            </section>
+            <pre class="code-snip"><code class="code">
+.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 
+    repeat(12, 1fr);
+}
+                </code>
+            </pre>
         </section>
 
         <section class="snippet" id="snip-4">
             <h2 class="snip-header">Linear Gradients</h2>
             <p class="description">This will create a background linear gradient from top to bottom.</p>
-            <section class="code">
-                <p>.linear-gradient-background</p>
-                <p class="indent">background: linear-gradient &lpar;</p>
-                <p class="dbl-indent">rgba(232, 102, 236, 0.3) 0%, rgba(232,102, 236, 0.6) 100%</p>
-                <p class="indent">&rpar;;</p>
-                <p>&rcub;</p>
-            </section>
+            <pre class="code-snip"><code class="code">
+.linear-gradient-background {
+    background: linear-gradient {
+    rgba(232, 102, 236, 0.3) 0%, 
+    rgba(232,102, 236, 0.6) 100%
+    }
+}
+                </code>
+            </pre>
         </section>
 
         <section class="snippet" id="snip-5">
             <h2 class="snip-header">Box Transition Glow</h2>
             <p class="description">Use transition and box shadows to glow on hover.</p>
-            <section class="code">
-                <p>.code-card .card-header &lcub;</p>
-                <p class="indent">border-radius: 8px;</p>
-                <p class="indent">transition: all 0.5s ease-in-out;</p>
-                <p>&rcub;</p><br>
-                <p>.code-card:hover,</p>
-                <p>.code-card:hover .card-header &lcub;</p>
-                <p class="indent">box-shadow: inset 0px 0px 8px</p>
-                <p>rgba(232, 102, 236, 1), 0 0 15px</p>
-                <p>rgba(232, 102, 236, 1);</p>
-                <p>&rcub;</p>
-            </section>
+            <pre class="code-snip"><code class="code">
+.code-card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    }
+
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px 
+    rgba(232, 102, 236, 1), 0 0 15px 
+    rgba(232, 102, 236, 1);
+    }
+                </code>
+            </pre>
         </section>
 
         <section class="snippet" id="snip-6">
             <h2 class="snip-header">Overlay Card with Title</h2>
             <p class="description">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
-            <section class="code">
-                <p>.card-header &lcub;</p>
-                <p class="indent">position: relative;</p>
-                <p class="indent">margin-top: -20px;</p>
-                <p>&rcub;</p>
-              
-            </section>
+            <pre class="code-snip"><code class="code">
+.card-header {
+    position: relative;
+    margin-top: -20px;
+    }
+                </code>
+            </pre>
         </section>
 
 
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <p>Made with heart and CSS</p>
     </footer>
 </body>
 
